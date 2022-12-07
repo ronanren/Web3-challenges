@@ -11,4 +11,4 @@ List of links with challenges :
 
 # Table of contents
 
-- [CryptoZombies](https://github.com/ronanren/Blockchain-challenges/tree/master/CryptoZombies)
+- [CryptoZombies](https://github.com/ronanren/Blockchain-challenges/tree/main/CryptoZombies)
