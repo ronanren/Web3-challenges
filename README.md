@@ -8,9 +8,8 @@ List of links with challenges :
 - https://cryptozombies.io/en/course
 - https://nodeguardians.io/dev-hub?s=devhub-overview
 - https://buildspace.so/builds#ml-projects
-- https://ethernaut.openzeppelin.com/
-
 
 # Table of contents
 
 - [CryptoZombies](https://github.com/ronanren/Blockchain-challenges/tree/main/CryptoZombies)
+- [Ethernaut](https://github.com/ronanren/Blockchain-challenges/tree/main/Ethernaut)
