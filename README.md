@@ -8,6 +8,7 @@ List of links with challenges :
 - https://cryptozombies.io/en/course
 - https://nodeguardians.io/dev-hub?s=devhub-overview
 - https://buildspace.so/builds#ml-projects
+- https://ethernaut.openzeppelin.com/
 
 
 # Table of contents
