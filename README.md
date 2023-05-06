@@ -11,5 +11,7 @@ List of links with challenges :
 
 # Table of contents
 
+- [Rust](https://doc.rust-lang.org/book/title-page.html)
+
 - [CryptoZombies](https://github.com/ronanren/Blockchain-challenges/tree/main/CryptoZombies)
 - [Ethernaut](https://github.com/ronanren/Blockchain-challenges/tree/main/Ethernaut)
