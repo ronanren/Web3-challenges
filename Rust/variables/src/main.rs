@@ -1,11 +1,10 @@
-const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
-
 fn main() {
     // Variables and Mutability
     let mut x = 5;
     println!("The value of x is: {x}");
     x = 6;
     println!("The value of x is: {x}");
+    const THREE_HOURS_IN_SECONDS: u32 = 60 * 60 * 3;
     println!("The value of THREE_HOURS_IN_SECONDS is: {THREE_HOURS_IN_SECONDS}");
     let x = 5;
     let x = x + 1;
@@ -16,21 +15,22 @@ fn main() {
     println!("The value of x is: {x}");
 
     // Data Types
-    let x = 2.0; // f64
-    let y: f32 = 3.0; // f32
-    let sum = 5 + 10; // addition
-    let difference = 95.5 - 4.3; // subtraction
-    let product = 4 * 30; // multiplication
-    let quotient = 56.7 / 32.2; // division
-    let truncated = -5 / 3; // Results in -1
-    let remainder = 43 % 5; // remainder
-    let t = true;
-    let f: bool = false; // with explicit type annotation
-    let c = 'z';
-    let z: char = 'ℤ'; // with explicit type annotation
+    let _x = 2.0; // f64
+    let _y: f32 = 3.0; // f32
+    let _sum = 5 + 10; // addition
+    let _difference = 95.5 - 4.3; // subtraction
+    let _product = 4 * 30; // multiplication
+    let _quotient = 56.7 / 32.2; // division
+    let _truncated = -5 / 3; // Results in -1
+    let _remainder = 43 % 5; // remainder
+    let _t = true;
+    let _f: bool = false; // with explicit type annotation
+    let _c = 'z';
+    let _z: char = 'ℤ'; // with explicit type annotation
     let heart_eyed_cat = '😻';
+    println!("Emoji: {heart_eyed_cat}");
     let tup = (500, 6.4, 1);
-    let (x, y, z) = tup;
+    let (_x, y, _z) = tup;
     println!("The value of y is: {y}");
     let last_elem = tup.2;
     println!("The value of z is: {last_elem}");
@@ -39,9 +39,20 @@ fn main() {
     println!("The first value of the array: {a}");
 
     // Functions
-    another_function();
-}
+    another_function(23, 'c');
+    let y = {
+        let x = 3;
+        x + 1
+    };
+    fn another_function(value: i32, unit: char) {
+        println!("Another function unit: {value}{unit}");
+    }
+    fn plus_one(x: i32) -> i32 {
+        x + 1
+    }
+    println!("The value of y is: {y}");
+    let z = plus_one(5);
+    println!("The value of 5 + 1 : {z}");
 
-fn another_function() {
-    println!("Another function");
+    // Control Flow
 }
