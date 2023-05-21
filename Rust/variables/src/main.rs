@@ -55,4 +55,30 @@ fn main() {
     println!("The value of 5 + 1 : {z}");
 
     // Control Flow
+    let number = 7;
+    if number < 5 {
+        println!("Condition was true");
+    } else {
+        println!("Condition was false");
+    }
+    let condition = false;
+    let number = if condition { 5 } else { 6 };
+    println!("The value of number is: {number}");
+    let mut counter = 0;
+    let result = loop {
+        counter += 1;
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+    println!("The result is {result}");
+    let mut number = 3;
+    while number != 0 {
+        println!("Loop: {number}");
+        number -= 1;
+    }
+    let a = [10, 20, 30, 40];
+    for element in a {
+        println!("The value is: {element}");
+    }
 }
