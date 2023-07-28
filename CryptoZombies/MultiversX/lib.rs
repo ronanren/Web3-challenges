@@ -17,6 +17,7 @@ pub trait ZombiesContract:
     #[init]
     fn init(&self) {
         self.dna_digits().set(16u8);
+        self.cooldown_time().set(86400u64);
     }
 
     #[only_owner]
