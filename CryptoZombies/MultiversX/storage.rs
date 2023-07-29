@@ -25,13 +25,16 @@ pub trait Storage {
     #[storage_mapper("owned_zombies")]
     fn owned_zombies(&self, owner: &ManagedAddress) -> UnorderedSetMapper<usize>;
 
-    #[view]
-    #[storage_mapper("cooldown_time")]
-    fn cooldown_time(&self) -> SingleValueMapper<u64>;
-
     #[storage_mapper("level_up_fee")]
     fn level_up_fee(&self) -> SingleValueMapper<BigUint>;
 
     #[storage_mapper("collected_fees")]
     fn collected_fees(&self) -> SingleValueMapper<BigUint>;
+
+    #[view]
+    #[storage_mapper("cooldown_time")]
+    fn cooldown_time(&self) -> SingleValueMapper<u64>;
+
+    #[storage_mapper("attack_victory_probability")]
+    fn attack_victory_probability(&self) -> SingleValueMapper<u8>;
 }

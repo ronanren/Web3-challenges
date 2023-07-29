@@ -14,6 +14,8 @@ pub trait ZombieFactory: storage::Storage {
                 dna,
                 level: 1u16,
                 ready_time: self.blockchain().get_block_timestamp() + cooldown_time,
+                win_count: 0usize,
+                loss_count: 0usize,
             });
             self.owned_zombies(&owner).insert(*id);
             self.zombie_owner(id).set(owner);
