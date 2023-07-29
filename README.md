@@ -1,4 +1,4 @@
-# Blockchain-challenges
+# Web3-challenges
 
 There are all my challenges to learn blockchain development 
 
