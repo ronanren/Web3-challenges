@@ -9,7 +9,7 @@ List of links with challenges :
 
 # Table of contents
 
-- [Rust](https://doc.rust-lang.org/book/title-page.html)
-
+- [Rust](https://github.com/ronanren/Blockchain-challenges/tree/main/Rust)
 - [CryptoZombies](https://github.com/ronanren/Blockchain-challenges/tree/main/CryptoZombies)
+- [LearnWeb3](https://github.com/ronanren/Blockchain-challenges/tree/main/LearnWeb3)
 - [Ethernaut](https://github.com/ronanren/Blockchain-challenges/tree/main/Ethernaut)
