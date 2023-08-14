@@ -20,7 +20,9 @@ npx hardhat run scripts/deploy.js --network sepolia
 ```
 
 CryptoDevsNFT deployed to: 0xd4f1dC82f8ce84895B1fdac5150f42908BFd4835
+
 FakeNFTMarketplace deployed to: 0x511bE2019Ad10886E7DF8B63d9c0613DBCC2024b
+
 CryptoDevsDAO deployed to: 0xC4F35d376A749ff7Dcf7Bf790efC26653B9eEbEB
 
 ## Frontend
