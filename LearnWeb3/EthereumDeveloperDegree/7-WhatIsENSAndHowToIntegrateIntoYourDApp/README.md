@@ -1,5 +1,7 @@
 # What is ENS and how to integrate into your DApp
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/junior/what-is-ens-and-how-to-integrate-into-your-d-app/
+
 ## Setup
 
 1. Claim your ENS name on the Goerli testnet: https://app.ens.domains/

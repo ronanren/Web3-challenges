@@ -1,5 +1,7 @@
 # Build your own basic NFT contract on Ethereum
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/freshman/build-your-own-basic-nft-contract-on-ethereum/
+
 1. `npm install --save-dev hardhat @nomicfoundation/hardhat-toolbox`
 2. `npx hardhat` to create a new javascript project
 3. `npm install --save-dev @openzeppelin/contracts` to install the OpenZeppelin contracts

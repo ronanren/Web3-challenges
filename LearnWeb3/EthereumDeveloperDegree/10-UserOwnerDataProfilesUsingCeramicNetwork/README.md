@@ -1,5 +1,7 @@
 # User-owner data profiles using Ceramic Network
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/junior/user-owner-data-profiles-using-ceramic-network/
+
 ## NextJS with Ceramic Network
 
 ```bash

@@ -1,5 +1,7 @@
 # Testing smart contracts on a local blockchain node using Hardhat
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/junior/testing-smart-contracts-on-a-local-blockchain-node-using-hardhat/
+
 ## Hardhat 
 
 ```bash

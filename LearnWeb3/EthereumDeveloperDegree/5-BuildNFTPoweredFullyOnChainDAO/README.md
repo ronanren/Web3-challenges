@@ -1,5 +1,7 @@
 # Build an NFT-powered fully on-chain DAO to invest in NFT collections as a group
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/sophomore/build-an-nft-powered-fully-on-chain-dao-to-invest-in-nft-collections-as-a-group/
+
 ## 📝 Requirements
 
 - Anyone who owns a CryptoDevs NFT can create a proposal to purchase a different NFT from an NFT marketplace

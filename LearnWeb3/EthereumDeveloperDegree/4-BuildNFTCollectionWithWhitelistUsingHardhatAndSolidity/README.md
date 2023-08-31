@@ -1,5 +1,7 @@
 # Build an NFT collection with a whitelist using Hardhat and Solidity
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/sophomore/build-an-nft-collection-with-a-whitelist-using-hardhat-and-solidity/
+
 ## Step 1 - Whitelist Contract
 
 In the hardhat folder, run the following commands:

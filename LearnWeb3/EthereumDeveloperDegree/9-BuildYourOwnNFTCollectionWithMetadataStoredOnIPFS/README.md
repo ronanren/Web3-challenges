@@ -1,5 +1,7 @@
 # Build your own NFT collection with metadata stored on IPFS
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/junior/build-your-own-nft-collection-with-metadata-stored-on-ipfs/
+
 ## Requirements
 
 - There should only exist 10 LearnWeb3 Punk NFT's and each one of them should be unique.

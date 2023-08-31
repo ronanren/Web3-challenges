@@ -1,5 +1,7 @@
 # Build your own decentralized exchange like Uniswap v1
 
+Link: https://learnweb3.io/degrees/ethereum-developer-degree/sophomore/build-your-own-decentralized-exchange-like-uniswap-v1/
+
 ## 📝 Requirements
 
 - Build an exchange that allows swapping ETH <> TOKEN
