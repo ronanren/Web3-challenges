@@ -6,6 +6,7 @@ List of links with challenges :
 - https://cryptozombies.io/en/course
 - https://ethernaut.openzeppelin.com/
 - https://learnweb3.io/u/Ronanren/
+- https://nodeguardians.io/dev-hub?s=devhub-campaigns
 
 # Table of contents
 
