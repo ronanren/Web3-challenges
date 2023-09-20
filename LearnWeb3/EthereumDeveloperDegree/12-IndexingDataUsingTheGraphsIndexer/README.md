@@ -18,4 +18,20 @@ npm run deploy
 ```
 
 Deployed to https://thegraph.com/explorer/subgraph/ronanren/learnweb3
+
 Queries (HTTP): https://api.thegraph.com/subgraphs/name/ronanren/learnweb3
+
+4. Deploy changes to the subgraph
+```bash
+npm run codegen
+npm run deploy
+```
+
+## Website
+
+```bash
+npx create-next-app@latest
+cd my-app
+npm install
+npm run dev
+```
