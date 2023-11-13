@@ -150,3 +150,20 @@ contract ForceHack {
 ```
 
 Add amount of ether to send
+
+## Level 08
+
+https://ethernaut.openzeppelin.com/level/8
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface IVault {
+    function locked() external view returns (bool);
+    function unlock(bytes32 _password) external;
+}
+```
+
+Read the last 64 characters of the input data:
+https://mumbai.polygonscan.com/vmtrace?txhash=0xf99f1da3e77c8ef6ab7100f1ed34f0958f5fa8fc6053af2e420d2d9ba3b447a7&type=gethtrace2
